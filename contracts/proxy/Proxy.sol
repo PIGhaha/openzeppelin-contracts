@@ -12,6 +12,7 @@ pragma solidity ^0.8.0;
  *
  * The success and return data of the delegated call will be returned back to the caller of the proxy.
  */
+//调用成功和返回的数据将返回proxy的调用者
 abstract contract Proxy {
     /**
      * @dev Delegates the current call to `implementation`.
